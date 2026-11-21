@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: larry-run-club-brown
+    runtime: static
+    buildCommand: echo "Ready to run, Larry!"
+    staticPublishPath: public
